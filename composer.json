@@ -1,0 +1,21 @@
+{
+    "name": "dozer111/serializer",
+    "description": "Serialize factory. Already exists XML,Yaml,Json",
+    "type": "library",
+    "authors": [
+        {
+            "name": "dozer111",
+            "email": "alkhonko@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "dozer111\\serializer\\":"src"
+        }
+    }
+}
