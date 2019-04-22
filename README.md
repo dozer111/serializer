@@ -7,22 +7,24 @@ to the needed format
 <code>    composer require dozer111/serializer <code>
 
 ## Basic usage
-<code>
-    
-    use dozer111\serializer\SerializeFactory;
-    use dozer111\serializer\serializeItems\JsonSerialize;
-    
-    // .... your code
 
-    // 1 get some your object
-    $myTestObject = new SomeObject();
+```
+
+use dozer111\serializer\SerializeFactory;
+use dozer111\serializer\serializeItems\JsonSerialize;
     
-    // 2 do SerializeFactory::serializeObject
-    $serializeObject = new SerializeFactory(new Json());
-    $result = $serializeObject->serializeObject($myTestObject);
-<code>
+// .... your code
+
+// 1 get some your object
+$myTestObject = new SomeObject();
+    
+// 2 do SerializeFactory::serializeObject
+$serializeObject = new SerializeFactory(new Json());
+$result = $serializeObject->serializeObject($myTestObject);
+
+```
 
 ## Basic output serialize types
-1.  Json
-2.  Yaml
++ Json
++ Yaml
 
