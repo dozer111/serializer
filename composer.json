@@ -13,6 +13,12 @@
         "php": ">=7.1",
         "ext-json": "*"
     },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "dozer111\\serializer\\":"src"
