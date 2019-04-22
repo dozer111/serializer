@@ -1,8 +1,8 @@
 <?php
-namespace dozer111\serialize\serializeItems;
+namespace dozer111\serializer\serializeItems;
 
 
-use dozer111\serialize\SerializeInterface;
+use dozer111\serializer\SerializeInterface;
 
 
 
@@ -14,7 +14,7 @@ class XmlSerialize implements SerializeInterface
 
 
 
-    public function serialize(object $object): string
+    public function serialize( $object): string
     {
         //@TODO do xml serialize
     }

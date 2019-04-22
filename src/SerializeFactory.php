@@ -1,5 +1,5 @@
 <?php
-namespace dozer111\serialize;
+namespace dozer111\serializer;
 
 
 
@@ -19,10 +19,10 @@ class SerializeFactory
     }
 
     
-    public function serializeObject():string
+    public function serializeObject($object):string
     {
         
-        return $this->serializer->serialize();
+        return $this->serializer->serialize($object);
     }
 
 

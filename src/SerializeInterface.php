@@ -1,5 +1,5 @@
 <?php
-namespace dozer111\serialize;
+namespace dozer111\serializer;
 
 
 
@@ -9,7 +9,8 @@ namespace dozer111\serialize;
 
 interface SerializeInterface
 {
-    public function serialize(object $object):string;
+
+    public function serialize($object):string;
 }
 
 
