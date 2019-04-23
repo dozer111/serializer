@@ -1,28 +1,48 @@
-# Serialize library for ITEA homework
+Car | Owner
+--- | -----
+Volvo | Mark
+Sisi | Test1
+AAA | test2
+ZZZ | test3
 
-Simple Factory pattern example for responsive serializing object
-to the needed format
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
 
-## Installing
+
+
+text http://www.github.com
+
+
+```php
+echo "test text aaa";
+
+public static function zzz()
+{
+    $x = 1234;
+}
+
 ```
-composer require dozer111/serializer
-```
-## Basic usage
-```
 
-use dozer111\serializer\SerializeFactory;
-use dozer111\serializer\serializeItems\JsonSerialize;
-    
-// .... your code
+# 2 Цитаты (blockquotes)
+Some test data:
 
-// 1 get some your object
-$myTestObject = new SomeObject();
-    
-// 2 do SerializeFactory::serializeObject
-$serializeObject = new SerializeFactory(new Json());
-$result = $serializeObject->serializeObject($myTestObject);
+> wer a living iin america
 
-```
-## Basic output serialize types
-+ Json
-+ Yaml
+> asdads
+
+
+
+
+
+
+
+
+
+# 1 Заголовки
+## text 2
+### text 3
+#### text 4
+##### text 5
+###### text6
